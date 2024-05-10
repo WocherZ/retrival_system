@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain.chat_models.gigachat import GigaChat
 
 
-GIGACHAT_TOKEN = "Y2VhYTI1YzctMGNjOS00YmIzLWFlNGQtODMzMjYyYTFmM2UwOjlhOTFkODA2LTAxMTgtNDBhYS05OWY3LTQxZDc1MzUxNDYxZA=="
+GIGACHAT_TOKEN = "..."
 llm = GigaChat(credentials=GIGACHAT_TOKEN, model='GigaChat', verify_ssl_certs=False)
 
 st.title("Вопросно-ответная система на основе языковой модели")
